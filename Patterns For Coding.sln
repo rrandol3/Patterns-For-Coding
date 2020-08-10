@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - Sliding Window", "01 - Sliding Window\01 - Sliding Window.csproj", "{2212DE73-4D62-4D32-B419-DBF3B35AAEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 - Sliding Window", "01 - Sliding Window\01 - Sliding Window.csproj", "{2212DE73-4D62-4D32-B419-DBF3B35AAEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - Two Pointer", "02 - Two Pointer\02 - Two Pointer.csproj", "{BF3BD0F7-C8FB-4931-B35E-7AB1F162CD0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2212DE73-4D62-4D32-B419-DBF3B35AAEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2212DE73-4D62-4D32-B419-DBF3B35AAEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2212DE73-4D62-4D32-B419-DBF3B35AAEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3BD0F7-C8FB-4931-B35E-7AB1F162CD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3BD0F7-C8FB-4931-B35E-7AB1F162CD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3BD0F7-C8FB-4931-B35E-7AB1F162CD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3BD0F7-C8FB-4931-B35E-7AB1F162CD0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
