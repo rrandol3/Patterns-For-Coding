@@ -8,16 +8,14 @@ namespace _02___Two_Pointer
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] { -3, 0, 1, 2, -1, 1, -2 };
-            var triplets = TripletSumZero.SearchTriplets(arr);
-            foreach (var list in triplets)
-            {
-                foreach (var num in list)
-                {
-                    Console.Write(num + " ");
-                }
-                Console.WriteLine();
-            }
+            string str1 = "reg";
+            var chars1 = str1.ToCharArray();
+            char[] chars = new char[3];
+            chars[0] = 'r';
+            chars[1] = 'e';
+            chars[2] = 'g';
+            string test = new string(chars);
+            Console.WriteLine(test);
         }
 
         //Pair with Target Sum (easy)
@@ -124,6 +122,6 @@ namespace _02___Two_Pointer
         //Output: [-3, 1, 2], [-2, 0, 2], [-2, 1, 1], [-1, 0, 1]
         //Explanation: There are four unique triplets whose sum is equal to zero.
         //See TripletSumZero class for solution
-        
+
     }
 }
